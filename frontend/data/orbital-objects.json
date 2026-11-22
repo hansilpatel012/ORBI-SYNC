@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "dataset": "ORBI SYNC demonstration scenario",
+    "simulated": true,
+    "epoch": "2026-11-22T00:00:00Z",
+    "model": "Circular two-body orbits (no drag, no J2, no perturbations)",
+    "notes": "All objects, identifiers and orbits in this file are fictional and exist only to demonstrate the interface. They do not represent real satellites or real tracking data."
+  },
+  "objects": [
+    {
+      "id": "orbi-sat-1",
+      "name": "ORBI-SAT 1",
+      "designation": "SIM-0001",
+      "type": "active",
+      "operator": "ORBI Consortium (simulated)",
+      "role": "Earth observation",
+      "massKg": 260,
+      "manoeuvrable": true,
+      "orbit": {
+        "altitudeKm": 550,
+        "inclinationDeg": 53,
+        "raanDeg": 40,
+        "argumentOfLatitudeDeg": 215.6606
+      }
+    },
+    {
+      "id": "sim-deb-0417",
+      "name": "SIM-DEB 0417",
+      "designation": "SIM-0417",
+      "type": "debris",
+      "operator": "None — fragment (simulated)",
+      "role": "Fragmentation debris",
+      "sizeClass": "10–30 cm",
+      "manoeuvrable": false,
+      "orbit": {
+        "altitudeKm": 550.42,
+        "inclinationDeg": 97.6,
+        "raanDeg": 40,
+        "argumentOfLatitudeDeg": 215.7046
+      }
+    },
+    {
+      "id": "orbi-sat-2",
+      "name": "ORBI-SAT 2",
+      "designation": "SIM-0002",
+      "type": "active",
+      "operator": "ORBI Consortium (simulated)",
+      "role": "Communications relay",
+      "massKg": 410,
+      "manoeuvrable": true,
+      "orbit": {
+        "altitudeKm": 780,
+        "inclinationDeg": 70,
+        "raanDeg": 150,
+        "argumentOfLatitudeDeg": 87.2897
+      }
+    },
+    {
+      "id": "sim-rb-2207",
+      "name": "SIM-R/B 2207",
+      "designation": "SIM-2207",
+      "type": "rocket-body",
+      "operator": "Launch provider upper stage (simulated)",
+      "role": "Spent upper stage",
+      "massKg": 1400,
+      "manoeuvrable": false,
+      "orbit": {
+        "altitudeKm": 783.1,
+        "inclinationDeg": 28.5,
+        "raanDeg": 150,
+        "argumentOfLatitudeDeg": 87.9462
+      }
+    },
+    {
+      "id": "orbi-sat-3",
+      "name": "ORBI-SAT 3",
+      "designation": "SIM-0003",
+      "type": "active",
+      "operator": "Partner operator (simulated)",
+      "role": "Navigation augmentation",
+      "massKg": 520,
+      "manoeuvrable": true,
+      "orbit": {
+        "altitudeKm": 1400,
+        "inclinationDeg": 15,
+        "raanDeg": 260,
+        "argumentOfLatitudeDeg": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+    "metadata": {
+        "our_satellite_count": 200,
+        "our_conjunction_count": 18,
+        "socrates_record_count": 189379,
+        "matched_pairs": 0,
+        "matched_pair_and_tca": 0,
+        "tca_tolerance_hours": 6.0
+    },
+    "comparisons": [
+        {
+            "object_1": "33839",
+            "object_2": "34430",
+            "our_miss_distance_km": 1.753604,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "34114",
+            "object_2": "34273",
+            "our_miss_distance_km": 2.580496,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33948",
+            "object_2": "34061",
+            "our_miss_distance_km": 2.744621,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33842",
+            "object_2": "34008",
+            "our_miss_distance_km": 3.535752,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33839",
+            "object_2": "33848",
+            "our_miss_distance_km": 5.043521,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33838",
+            "object_2": "33908",
+            "our_miss_distance_km": 5.701394,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33805",
+            "object_2": "33973",
+            "our_miss_distance_km": 6.571018,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33911",
+            "object_2": "34062",
+            "our_miss_distance_km": 7.481415,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33986",
+            "object_2": "34019",
+            "our_miss_distance_km": 7.482429,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33938",
+            "object_2": "34056",
+            "our_miss_distance_km": 7.628589,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33912",
+            "object_2": "34117",
+            "our_miss_distance_km": 7.8318,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33945",
+            "object_2": "33994",
+            "our_miss_distance_km": 8.03264,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "34019",
+            "object_2": "34064",
+            "our_miss_distance_km": 8.612033,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33844",
+            "object_2": "34003",
+            "our_miss_distance_km": 8.911118,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33848",
+            "object_2": "33932",
+            "our_miss_distance_km": 9.540438,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33798",
+            "object_2": "34304",
+            "our_miss_distance_km": 9.655947,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33766",
+            "object_2": "33798",
+            "our_miss_distance_km": 9.864511,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        },
+        {
+            "object_1": "33948",
+            "object_2": "34058",
+            "our_miss_distance_km": 9.95281,
+            "status": "PAIR_NOT_FOUND_IN_SOCRATES"
+        }
+    ]
+}

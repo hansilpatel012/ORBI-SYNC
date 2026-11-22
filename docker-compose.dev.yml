@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: ./MEMBER 4
+      dockerfile: Dockerfile
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    volumes:
+      - ./MEMBER 4/app:/app/app
+      - ./member 1:/app/member 1:ro
+      - ./member2:/app/member2:ro
+    environment:
+      - ENVIRONMENT=development
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    command: ["pnpm", "run", "dev"]
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development

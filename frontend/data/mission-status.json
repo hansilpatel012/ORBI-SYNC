@@ -1,0 +1,60 @@
+{
+  "simulated": true,
+  "screening": {
+    "windowHours": 24,
+    "coarseStepSeconds": 20,
+    "reportThresholdKm": 10,
+    "riskThresholdsKm": {
+      "critical": 1,
+      "warning": 5
+    },
+    "note": "Demonstration thresholds. Real operations use covariance-based screening volumes supplied by the backend."
+  },
+  "dataReliability": {
+    "scorePercent": 94,
+    "basis": "Simulated placeholder value. Will be supplied by the backend data-quality service.",
+    "sources": [
+      { "name": "Operator ephemerides", "status": "nominal" },
+      { "name": "Partner catalogue feed", "status": "nominal" },
+      { "name": "Debris catalogue", "status": "degraded" }
+    ]
+  },
+  "communication": {
+    "links": [
+      { "id": "link-sat-1", "name": "ORBI-SAT 1 operations link", "status": "online" },
+      { "id": "link-sat-2", "name": "ORBI-SAT 2 operations link", "status": "online" },
+      { "id": "link-sat-3", "name": "ORBI-SAT 3 partner link", "status": "standby" },
+      { "id": "link-partner", "name": "Partner operator data exchange", "status": "online" }
+    ]
+  },
+  "events": [
+    {
+      "id": "evt-1",
+      "offsetMinutes": -42,
+      "severity": "info",
+      "title": "Scenario initialised",
+      "detail": "Five simulated objects loaded from orbital-objects.json."
+    },
+    {
+      "id": "evt-2",
+      "offsetMinutes": -27,
+      "severity": "info",
+      "title": "Ephemeris update — ORBI-SAT 2",
+      "detail": "Operator-supplied state vector accepted (simulated)."
+    },
+    {
+      "id": "evt-3",
+      "offsetMinutes": -15,
+      "severity": "warning",
+      "title": "Debris catalogue feed degraded",
+      "detail": "Update cadence below nominal (simulated)."
+    },
+    {
+      "id": "evt-4",
+      "offsetMinutes": -6,
+      "severity": "info",
+      "title": "ORBI-SAT 3 link on standby",
+      "detail": "Partner link scheduled for next contact window (simulated)."
+    }
+  ]
+}
