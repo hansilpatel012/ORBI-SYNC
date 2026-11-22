@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "nextjs"
+    },
+    "member1": {
+      "root": "member 1/ORBI-SYNC/member1",
+      "runtime": "python"
+    },
+    "member4": {
+      "root": "MEMBER 4",
+      "framework": "fastapi"
+    },
+    "member2": {
+      "root": "member2",
+      "runtime": "python"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
+}
